@@ -9,8 +9,8 @@ class Topic extends Component {
                 <div className="container">
                     <div className="row">
                         <Content topic={this.props.selectedTopic} />
-                        <button>Prev</button>
-                        <button onClick={() => this.handleClickNext(this.props.topic.id)}>Next</button>
+                        {/* <button>Prev</button>
+                        <button onClick={() => this.handleClickNext(this.props.topic.id)}>Next</button> */}
                     </div>
                 </div>
             );
